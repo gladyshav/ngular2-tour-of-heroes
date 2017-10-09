@@ -1,0 +1,142 @@
+{
+  "name": "gladyshav/ngular2-tour-of-heroes",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/gladyshav/ngular2-tour-of-heroes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/angular2-tour-of-heroes",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "ngular2-tour-of-heroes",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "ngular2-tour-of-heroes: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "gladyshav",
+          "repo": "ngular2-tour-of-heroes"
+        }
+      ],
+      "text": "v0.1.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Getting Started</h1>\n<p>Super simple Angular 2 app with 1 module and 2 routes </p>\n<h2>Get the Code</h2>\n<pre>git <span class=\"hljs-keyword\">clone</span> <span class=\"hljs-title\">https</span>://github.com/johnpapa/angular2-tour-of-heroes.git toh\ncd toh\nnpm i</pre><h3>Just in Time (JiT) Compilation</h3>\n<p>Runs the TypeScript compiler and launches the app</p>\n<pre><span class=\"hljs-built_in\">npm</span> start</pre><h3>Ahead of Time (AoT) Compilation</h3>\n<p>Runs the Angular AoT compiler, rollup, uglify for an optimized bundle, then launches the app</p>\n<pre>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> start-aot</span></pre><h3>AoT + gzip</h3>\n<p>Runs AoT plus gzips and launches the app </p>\n<pre>gulp <span class=\"hljs-keyword\">copy</span><span class=\"bash\">-aot-gzip\n</span>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> aot\n</span>npm <span class=\"hljs-keyword\">run</span><span class=\"bash\"> rollup\n</span>http-server</pre><p>Notes:</p>\n<ul>\n<li>Use your favorite server in place of <code>http-server</code></li>\n<li>This could be scripted, obviously</li>\n<li><code>lite-server</code> does not launch gzipped files by default.</li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/gladyshav/ngular2-tour-of-heroes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/gladyshav",
+          "text": "gladyshav"
+        }
+      ]
+    }
+  ]
+}
